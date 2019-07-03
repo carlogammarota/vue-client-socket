@@ -10,7 +10,7 @@ server.listen(process.env.PORT || 2000);
 app.get('/', function (req, res) {
   // res.sendFile(__dirname + '/socketclient/public');
   // res.sendFile(__dirname + '/dist');
-  app.use(serveStatic(path.join(__dirname, 'dist')));
+  app.use(serveStatic(path.join(__dirname, '/dist')));
   console.log("connect get")  
   // res.send("HolaWorld")
 });
