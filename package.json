@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "jquery": "^3.4.1",
+    "serve": "^11.0.2",
+    "vue": "^2.6.10",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-socket.io": "^3.0.7",
+    "vue2-google-maps": "^0.10.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
